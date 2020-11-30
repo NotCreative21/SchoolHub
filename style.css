@@ -8,6 +8,39 @@ h1 {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.navbar {
+  z-index: 1;
+  overflow: hidden;
+  background-color: #2f3031;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbar a:hover {
+  background: #ffffff9c;
+  color: #145cbf;
+}
+.navbar a.active {
+  color: white;
+}
+.navbar img {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
 div {
   color: white;
   font-size: 18px;
