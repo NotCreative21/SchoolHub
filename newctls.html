@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -27,6 +28,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div style="display:block; margin-top: 4.7em;">
 <h1 style="color:white;font-size:14px;">placeholder</h1>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Classes</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="_blank">Chemestry</a>
+    <a href="_blank">Spanish</a>
+    <a href="_blank">Math</a>
+    <a href="_blank">ELA</a>
+    <a href="_blank">Computer Science</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 <h1 style="color:white;font-size:10px;"><a href="https://github.com/NotCreative21/SchoolHub" target=”_blank”>Github Repo, Hosted with Pages</a></h1>
   <h1 style="color:white;font-size:8px;">This website is not in ANY way affiliated with Cobb County, I just got bored.</h1>
   <!--Updated 30/11/2020-9:21 -->
