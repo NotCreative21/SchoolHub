@@ -9,6 +9,15 @@ h1 {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 } 
+.box {
+  background-color: #27292b;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
+
+  padding-bottom: 1px;
+}
 /*drop down from w3 start*/
 .dropbtn {
   background-color: #3498DB;
