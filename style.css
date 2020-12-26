@@ -24,7 +24,14 @@ h1 {
   margin: auto;
   border-radius: 10px;
   padding: 5px;
-
+  padding-bottom: 1px;
+}
+.security {
+  background-color: #3D4751;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
   padding-bottom: 1px;
 }
 /*drop down from w3 start*/
