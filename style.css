@@ -3,6 +3,7 @@
 * {
   font-family: 'Nunito', sans-serif;
   font-size: 17px;
+  color: white;
 }
 h1 {
   color: white;
@@ -30,9 +31,9 @@ h1 {
   background-color: #3D4751;
   width: 500px;
   margin: auto;
-  border-radius: 10px;
-  padding: 5px;
-  padding-bottom: 1px;
+  border-radius: 4px;
+  padding: 3px;
+  padding-bottom: 8px;
 }
 /*drop down from w3 start*/
 .dropbtn {
@@ -77,18 +78,18 @@ h1 {
 .navbar {
   z-index: 1;
   overflow: hidden;
-  background-color: #2f3031;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 22px 14px;
+  padding: 10px 10px;
+  width: 60px;
   text-decoration: none;
   font-size: 16px;
 }
